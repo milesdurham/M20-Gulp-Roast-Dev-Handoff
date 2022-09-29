@@ -1,0 +1,15 @@
+/*color variables */
+$primary-color: #F2F2F2; /* white */
+$button-bg-color: #59331D; /* coffee */
+$accent-color-dark: #131D26; /* navy blue */
+$accent-color-light: #082B59; /* bright blue */
+$accent-color-bright: #D98555; /*peach */
+
+/*modal styles */
+
+/*when using original sized image*/
+.modal-body img {
+    -webkit-transform:scale(1.5);
+    transform:scale(1.5)
+}
+/*modal styles end*/

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products</title>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/8bcb280cfa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="bg-primary border-bottom border-secondary border-5 mb-5">
+    Gulp Roast Coffee
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="https://uxuicurriculum.wixsite.com/gulproast "><img
+          src="https://assets.codepen.io/6306176/gulp-logo-light.png"
+          height="80"
+          alt="Gulp Coffee Logo"/>
+      </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="https://uxuicurriculum.wixsite.com/gulproast">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="https://uxuicurriculum.wixsite.com/gulproast">Locations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="https://uxuicurriculum.wixsite.com/gulproast">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Coffee</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="https://uxuicurriculum.wixsite.com/gulproast">Contact</a>
+            </li>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <!--Products-->
+  <div class="container">
+    <div class="card-group">
+      <!--Columbian Espresso-->
+      <div class="card text-white text-center bg-dark mb-3 me-4" style="width: 25rem;">
+        <img src="media/gulp-espresso.jpg" class="card-img-top" alt="Columbian-Blended Espresso Beans">
+        <div class="card-body">
+          <h5 class="card-title">Columbian-Blended Espresso Beans</h5>
+          <p class="card-text">Flavor profile: Bourbon / cherry / milk chocolate
+            Recommended brew method: Espresso machine</p>
+          <!--Price Choices-->
+          <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+            <input type="radio" class="btn-check" name="columbianprices" id="option1" autocomplete="off" checked>
+            <label class="btn btn-outline-secondary" for="option1">12 oz for $20</label>
+            <input type="radio" class="btn-check" name="columbianprices" id="option2" autocomplete="off">
+            <label class="btn btn-outline-secondary" for="option2">5 lbs for $90</label>
+          </div>
+          <p class="card-text"></p>
+          <!--Actions-->
+          <div class="d-grid gap-2">
+            <a href="#" class="btn btn-primary">Quick Buy</a>
+            <a href="columbian.html" class="btn btn-secondary">View Product</a>
+          </div>
+        </div>
+      </div>
+      <!--Triple-Blended Coffee-->
+      <div class="card text-white text-center bg-dark mb-3 me-4" style="width: 25rem;">
+        <img src="media/gulp-triple-blended.jpg" class="card-img-top" alt="Triple-Blended Coffee Beans">
+        <div class="card-body">
+          <h5 class="card-title">Triple-Blended Coffee Beans</h5>
+          <p class="card-text">Flavor profile: Dark chocolate / caramel / papaya 
+            Recommended brew method: French press</p>
+          <!--Price Choices-->
+          <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+            <input type="radio" class="btn-check" name="blendedprices" id="option3" autocomplete="off" checked>
+            <label class="btn btn-outline-secondary" for="option3">12 oz for $18</label>
+            <input type="radio" class="btn-check" name="blendedprices" id="option4" autocomplete="off">
+            <label class="btn btn-outline-secondary" for="option4">5 lbs for $85</label>
+          </div>
+          <p class="card-text"></p>
+          <!--Actions-->
+          <div class="d-grid gap-2">
+            <a href="#" class="btn btn-primary">Quick Buy</a>
+            <a href="tripleblend.html" class="btn btn-secondary">View Product</a>
+          </div>
+        </div>
+      </div>
+      <!--Lightly Roasted Coffee-->
+      <div class="card text-white text-center bg-dark mb-3 me-4" style="width: 25rem;">
+        <img src="media/gulp-light-roast.jpg" class="card-img-top" alt="Lightly Roasted Coffee Beans">
+        <div class="card-body">
+          <h5 class="card-title">Lightly Roasted Coffee Beans</h5>
+          <p class="card-text">Flavor profile: Cherry / mangosteen / fig 
+            Recommended brew method: Aeropress</p>
+          <!--Price Choices-->
+          <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+            <input type="radio" class="btn-check" name="lightlyprices" id="option5" autocomplete="off" checked>
+            <label class="btn btn-outline-secondary" for="option5">12 oz for $18</label>
+            <input type="radio" class="btn-check" name="lightlyprices" id="option6" autocomplete="off">
+            <label class="btn btn-outline-secondary" for="option6">5 lbs for $85</label>
+          </div>
+          <p class="card-text"></p>
+          <!--Actions-->
+          <div class="d-grid gap-2">
+            <a href="#" class="btn btn-primary">Quick Buy</a>
+            <a href="lightlyroasted.html" class="btn btn-secondary">View Product</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <footer class="border-secondary border-top border-5 text-center py-5 mt-5 bg-primary text-white">
+    <div class="container-sm">
+      <p>&copy;2022 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.</p>
+      <p><small>This site is operated by Trilogy Education Services for educational purposes only. This is not a coffee products website. This is a fictitious company and scenario intended only for internal academic purposes.</small></p>
+    </div>
+  </footer>
+</body>
+</html>

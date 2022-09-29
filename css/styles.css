@@ -1,0 +1,23 @@
+/*color variables */
+/* white */
+/* coffee */
+/* navy blue */
+/* bright blue */
+/*peach */
+/*modal styles */
+.no-borders {
+  border: 0px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.modal-body {
+  display: flex;
+}
+
+/*when using original sized image*/
+.modal-body img {
+  transform: scale(1.5);
+}/*# sourceMappingURL=styles.css.map */
